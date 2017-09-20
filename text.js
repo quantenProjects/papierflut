@@ -22,6 +22,14 @@ textStorage = {
                 "factor": 6000,
                 "begin": "Mit dem Holz hätten ",
                 "end": " Zahnstocher für ein sauberes Lächeln gemacht werden können."
+            },
+            {
+                "max": -1,
+                "min": 10,
+                "float": 0,
+                "factor": 0.34,
+                "begin": "Mit dem Holz könnte man ",
+                "end": " \"Frosta\" Ikea Hocker bauen."
             }
         ],
     "energy":
@@ -33,6 +41,14 @@ textStorage = {
                 "factor": 1,
                 "begin": "Zur Herstellung wurden ",
                 "end": " kWh Energie benötigt."
+            },
+            {
+                "max": -1,
+                "min": 5,
+                "float": 2,
+                "factor": 3,
+                "begin": "Mit der benötigten Energie könnte man ",
+                "end": " Liter Bier brauen."
             },
             {
                 "max": -1,
@@ -60,6 +76,14 @@ textStorage = {
                 "factor": 5,
                 "begin": "Mit dem Wasser hätte man ",
                 "end": " Becher füllen können."
+            },
+            {
+                "max": -1,
+                "min": 8,
+                "float": 0,
+                "factor": 0.5,
+                "begin": "Mit dem Wasser könnte ein Mensch ",
+                "end": " Tage auskommen."
             }
         ],
 
