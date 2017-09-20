@@ -18,7 +18,7 @@ function startCalc() {
 function startLoading() {
     document.getElementById("loadingDIV").classList.remove("hidden");
     document.getElementById("loadingDIV").classList.add("visible");
-    setTimeout(endLoading,1000);
+    setTimeout(endLoading,4000);
 }
 
 function endLoading() {
