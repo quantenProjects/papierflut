@@ -1,0 +1,95 @@
+
+/*html { overflow-y: hidden; }*/
+
+body {
+    font-family: sans-serif;
+    margin: 5%;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+#loadingDIV {
+    text-align: center;
+    font-size: 400%;
+}
+
+.result {
+    padding: 5%;
+    font-size: 150%;
+}
+
+.results {
+    padding: 2%;
+}
+
+
+.sources {
+    font-size: 50%;
+    color: #aaaaaa;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.formstyle
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 500px;
+    padding: 7px;
+    border: none;
+    border-bottom: 3px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: 200%;
+    height: 85px;
+}
+.buttonstyle {
+
+    background-color: #4edf6f;
+    text-align: center;
+
+    border: none;
+    font-size: 150%;
+    width: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.inputForm {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.visible,
+.hidden {
+    overflow: hidden;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}
+
+
+.visible > div,
+.hidden > div {
+    padding: 2%;
+}
+.hidden > div {
+    margin-top: -10000px;
+    transition: margin-top 0s 1s;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Papierflut</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" media="screen">
+    <script type="text/javascript" src="text.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="inputDIV" class="visible">
+    <div>
+        <h1>Papierflut</h1>
+        <div class="inputForm">
+            <input class="formstyle" id="pagesInput" type="text" placeholder="Zettel">
+            <br>
+            <input class="formstyle" id="studentsInput" type="text" placeholder="Schüler">
+            <br>
+            <input class="buttonstyle" id="submitInput" type="submit" value="Bäume schlachten" onclick="startCalc()">
+        </div>
+    </div>
+</div>
+<div id="loadingDIV" class="hidden">
+    <div>
+        Loading
+    </div>
+</div>
+
+<div id="resultDIV" class="hidden">
+    <div id="textBegin" class="result">
+
+    </div>
+    <ul>
+        <li>
+            <div id="wood" class="results">
+
+            </div>
+        </li>
+        <li>
+            <div id="energy" class="results">
+
+            </div>
+        </li>
+        <li>
+            <div id="water" class="results">
+
+            </div>
+        </li>
+    </ul>
+
+
+
+
+    <div id="sources" class="sources">
+        Public Domain - Falls das hier irgendjemanden stört: Es ist Kunst! - Quelle: http://www.pro-regenwald.de/hg_papier
+    </div>
+</div>
+
+</body>
+</html>
